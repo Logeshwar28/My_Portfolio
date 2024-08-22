@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav id="navbar">
+        <div class="logo">Logeshwaran Kanagaraj</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Logeshwaran Kanagaraj</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#About" onclick="toggleMenu()">About</a></li>
+                <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>      
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./Assets/Logesh_Image.jpg" alt="Logeshwaran" class="profile_pic">
+        </div>
+        <div class="section_text">
+            <p class="section_p1">Hi I'm</p>
+            <h1 class="title">Logeshwaran Kanagaraj</h1>
+            <p class="section_p2">Software Developer</p>
+            <div class="btn-container">
+                <button class="btn btn_color-2" onclick="window.open('./Assets/Logeshwaran Resume.pdf')">Download CV</button>
+                <button class="btn btn_color-1" onclick="location.href='./#contact'">contact info</button>
+            </div>
+            <div id="social-container">
+               <img src="./assets/Linkedin image.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/logeshwaran-kanagaraj-9b2997201'">
+               <img src="./assets/Github image.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/Logeshwar28'">
+               <img src="./assets/leetcode image.png" alt="My leetcode Profile" class="icon" onclick="location.href='https://leetcode.com/u/Logesh28/'">
+               <img src="./assets/Hackerrank image.png" alt="My Hackerrank Profile" class="icon" onclick="location.href='https://www.hackerrank.com/profile/logeshwarankana1'">
+
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+         <div class="about-details-container">
+            <div class="about-container">
+            <div class="text-container">
+                <p>I am a passionate Software Developer and Front-End Developer, recently graduated with a B.Tech in Biotechnology from VSB Engineering College, Karur, in 2024. As a skilled fresher, I am enthusiastic about new opportunities and eager to apply my knowledge and skills in real-world projects. My background includes a strong foundation in software development, with a particular focus on creating intuitive and dynamic front-end interfaces. I am driven by a desire to continuously learn and grow, and I am excited to contribute to innovative projects and collaborate with talented teams.</p>
+                <div class="details-container">
+             </div>
+            </div>
+         </div>
+        <img src="./Assets/arrow.png" alt="Arrow Icon" class="arrow">
+    </section>
+    <section id="education">
+        <h2 class="title">Education</h2>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <img src="/Assets/Biotechnology.jpg" alt="VSB Logo">
+                    <h3>B.Tech</h3>
+                    <p>VSB Engineering College, Karur</p>
+                    <h4>Biotechnology</h4>
+                    <p>Percentage: 85%</p>
+                    <p>2024</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <img src="/Assets/Biology.jpg" alt="HSC Logo">
+                    <h3>HSC</h3>
+                    <p>Karur Vetri Vinayaka Matric Hr.Sec School, Karur</p>
+                    <h4>Bio-Maths</h4>
+                    <p>Percentage: 76%</p>
+                    <p>2020</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content left">
+                    <img src="/Assets/school.jpg" alt="Undergraduate Logo">
+                    <h3>SSLC</h3>
+                    <p>Umaiyal High School, Ezhilkudil, Mudiganam.</p>
+                    <p>Percentage: 92%</p>
+                    <p>2018</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2 class="title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="/Assets/java.jpg" alt="Java Icon">
+                <p>Java</p>
+            </div>
+            <div class="skill">
+                <img src="/Assets/c.png" alt="C Icon">
+                <p>C</p>
+            </div>
+            <div class="skill">
+                <img src="/Assets/HTML.png" alt="HTML Icon">
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <img src="/Assets/CSS.png" alt="CSS Icon">
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <img src="/Assets/js.png" alt="JavaScript Icon">
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <img src="/Assets/react.png" alt="React Icon">
+                <p>React</p>
+            </div>
+            <div class="skill">
+                <img src="/Assets/SQL.jpg" alt="SQL Icon">
+                <p>SQL</p>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section id="project">
+        <h2 class="title">My Project</h2>
+        <h3>Farm House E-Commerce Website</h3>
+        <p>
+            Farm House is an e-commerce website designed for selling farming products at affordable prices while ensuring high quality. 
+            It features a user-friendly interface for browsing products, a secure checkout process, and detailed product descriptions.
+        </p>
+        <p><strong>Technical Stack:</strong> HTML, CSS, JavaScript</p>
+        <a href="https://logeshwar28.github.io/Farm-House/" target="_blank" class="project-preview "><img src="/Assets/project.png"></a>
+    </section>
+    
+    <section id="contact">
+        <p class="section_text_p1"  >Get In Touch</p>
+        <h1 class="title">Contact me</h1>
+        <div class="contact-info-upper-container">
+         <div class="contact-info-container">
+            <img
+               src="./Assets/email.png" alt="Email icon" class="icon contact-icon">
+               <p><a href="mailto:logeshwarankanagaraj8@gmail.com">logeshwarankanagaraj8@gmail.com</a></p>
+               <img
+                  src="./Assets/Linkedin image.png" alt="Email icon" class="icon contact-icon">
+                  <p><a href="https://www.linkedin.com/in/logeshwaran-kanagaraj-9b2997201">LinkedIn</a></p>
+              </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+
+        </nav>
+     <p>Copyright &#169: 2023 logeshwaran kanagaraj.All Rights Reserved</p>
+    </footer>
+</body>
+</html>
